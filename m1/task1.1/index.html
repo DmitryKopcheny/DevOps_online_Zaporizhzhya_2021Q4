@@ -3,7 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel=stylesheet type="text/css" href="styles/style.css">
     <title>SR2</title>
+  </head>
+  <body>
+    <header class="container-fluid panel">
+
+
+    
+
+    <title>{% block title %}Fintech0{% endblock %}</title>
   </head>
   <body>
     <header class="container-fluid panel">
@@ -12,12 +21,24 @@
     <div class="header-spacer"></div>
     
     <main class="container-fluid">
+
         <img src="images/index.jpeg">
     </main>
     
     
-    <footer class="container-fluid panel">
 
+    
+    <div class="footer-spacer"></div>
+    <footer class="container-fluid panel">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+          <a href="#" class="page-link "> {% translate 'Terms of Service' %} </a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+          <a href="#" class="page-link "> {% translate 'Privacy Policy' %} </a>
+        </div>
+      </div>
+>>>>>>> styles
     </footer>
   </body>
 </html>
